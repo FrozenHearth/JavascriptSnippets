@@ -1,4 +1,4 @@
-
+Straightforward. We have a promise-based settimeout so that we can do something after the settimeout executes.
 
     const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
     
